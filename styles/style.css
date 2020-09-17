@@ -3,3 +3,17 @@
   box-sizing:border-box;  
 }
 
+body {
+    font-family: 'PT Serif', serif;
+    max-width: 90%;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
