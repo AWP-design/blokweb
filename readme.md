@@ -38,15 +38,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik vond JavaScript lastig. Het is mij nog niet gelukt om JS in mijn website te verwerken.
+Ik heb nu algemeen structuur in HTML aangemaakt en de basis van CSS toegevoegd.
 
 **Screenshot(s):**
-
--screenshot(s) van hoe ver je bent-
-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/vg1s1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/vg1s2.png)
 ### Agenda voor meeting
-
--samen met je groepje opstellen-
+Hoe kan je (in niet te ingewikkeld manier) een caroussel maken?
+Wanneer gebruik je flexbox en wanneer absoluut positioneren?
+Hoe we kunnen zorgen dat de website zo responsive mogelijk wordt?
+Hoe kunnen we de hamburgen menu laten werken?
 
 ### Verslag van meeting
 
