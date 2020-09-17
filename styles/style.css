@@ -9,11 +9,36 @@ body {
     text-align: center;
 }
 
+img {
+    width: 100%;
+}
+
 h3 {
     font-family: 'Roboto', sans-serif;
+    color: #FC7170;
 }
 
 header {
     display: flex;
     flex-direction: row;
+}
+
+section {
+    position: relative;
+}
+
+.allover {
+    position: absolute;
+    top:0;
+/*    left:1em; right:1em;  bottom:1em;*/
+/*  margin:0;*/
+  color: darkgrey;
+}
+
+main a {
+    text-decoration: none;
+    background-color: #FC7170;
+    padding: 22px 53px 22px 25px;
+    color: white;
+    border-radius: 2em;
 }
