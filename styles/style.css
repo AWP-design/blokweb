@@ -17,7 +17,7 @@ img {
 h3 {
     font-family: 'Roboto', sans-serif;
     color: darkgrey;
-    font-size: 22px;
+    font-size: 28px;
 }
 
 
@@ -44,10 +44,10 @@ main a {
     display: block;
     text-decoration: none;
     background-color: #FC7170;
-    padding: 22px 33px 22px 25px;
+    padding: 20px 30px 20px 20px;
     color: white;
     border-radius: 2em;
-    font-size: 11.5px;
+    font-size: 13px;
     width: 60%;
     margin: auto;
     margin-top: 130px;
@@ -59,6 +59,23 @@ main h4 {
 }
 
 /*why it's not working??????? zou moeten alleen de eeste <p> in de document targetten*/
-p:first-of-type {
+section p:first-child {
     color: #FC7170;
+}
+
+/*Breakpoints*/
+
+/*onderste plaatjes naast elkaar, titel groter, uitgebreid footer*/
+@media all and (min-width: 750px) {
+    body{
+        background-color: none;
+    }
+}
+/*Onderste plaatjes groter, menu komt uit hamburger in categorieen*/
+@media all and (min-width: 1054px){
+    
+}
+/*onderste plaatjes groter*/
+@media all and (min-width: 1250px){
+    
 }

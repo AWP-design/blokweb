@@ -52,7 +52,7 @@ Hoe kunnen we de hamburgen menu laten werken?
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/voortgang1.svg)
 
 
 
