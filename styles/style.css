@@ -3,21 +3,28 @@
 *::after,
 *::before {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
 }
 
 body {
     font-family: 'PT Serif', serif;
     text-align: center;
+    line-height: 20px;
 }
 
 img {
     width: 100%;
+    padding-bottom: 2em;
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
     color: darkgrey;
     font-size: 28px;
+    padding-top: 5px;
 }
 
 
@@ -38,19 +45,27 @@ main section div {
     bottom: 1em;
     margin: 0;
     color: darkgrey;
+
 }
 
 main a {
     display: block;
     text-decoration: none;
     background-color: #FC7170;
-    padding: 20px 30px 20px 20px;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    padding-right: 53px;
+    padding-top: 18px;
     color: white;
-    border-radius: 2em;
+    border-radius: 50px;
     font-size: 13px;
     width: 60%;
     margin: auto;
     margin-top: 130px;
+    position: relative;
+    min-width: 231px;
+    max-width: 233px;
+    filter: drop-shadow(0 0 0.3rem white)
 }
 
 main h4 {
@@ -58,24 +73,112 @@ main h4 {
     margin: 30px 0px 15px;
 }
 
-/*why it's not working??????? zou moeten alleen de eeste <p> in de document targetten*/
-section p:first-child {
+p {
+    padding-top: 5px;
+
+}
+
+h5 {
     color: #FC7170;
+}
+
+nav {
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 70vw;
+    z-index: 100;
+    transform: translateY(-100%);
+
+}
+
+header > button {
+    position: relative;
+    z-index: 200;
+}
+
+header > a {
+    position: relative;
+    z-index: 200;
+}
+
+.active nav {
+    transform: translateY(0);
+}
+
+/*Caroussel*/
+
+.car-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.foto {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.car-text{
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 /*Breakpoints*/
 
 /*onderste plaatjes naast elkaar, titel groter, uitgebreid footer*/
 @media all and (min-width: 750px) {
-    body{
+    body {
         background-color: none;
     }
 }
+
 /*Onderste plaatjes groter, menu komt uit hamburger in categorieen*/
-@media all and (min-width: 1054px){
-    
-}
+@media all and (min-width: 1054px) {}
+
 /*onderste plaatjes groter*/
-@media all and (min-width: 1250px){
-    
-}
+@media all and (min-width: 1250px) {}
