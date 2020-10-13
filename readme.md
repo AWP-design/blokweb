@@ -1,13 +1,10 @@
 # Procesverslag
 **Auteur:** Aleksandra Pawelec
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
+1. https://www.w3schools.com/howto/howto_js_slideshow.asp
+2. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 3. -...-
 
 
@@ -24,13 +21,50 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+Ik heb verder gewerkt om hamburger menu en de caroussel in elkaar te krijgen. 
+Er zitten nog wel bugs in. De tweede pagina moet nog gemaakt worden. Ook 
+responsiveness moet ik nog uitwerken.
+
+**Screenshot(s):**
+
+### Agenda voor meeting
+
+Hamburger menu en caroussel debuggen.
+
+
+### Verslag van meeting
+
+- Stuctuur beter uitwerken (h1,h2, etc.)
+- CSS en JS (onclick) elementen uit HTML document halen
+- In caroussel buttons ipv de links
+- Sections naar articles aanpassen in de caroussel
+- Een caroussel per pagina is genoeg
+- Foto's in caroussel hetzelfde maat
+- link naar de w3schools pagina- bron voor Caroussel
+- Hamburger menu :outline aan, svg plaatje, ul maken in nav, nav top 9em, transition .25s
+- handig: chrome plugin- Web developer Toolbar
 
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+Ik ben niet echt verder gekomen na de Voortgang 1. Ik vond het heel veel informatie en
+ik moet nu stap voor stap alles gaan toepassen op mijn pagina.
+Ik vond JavaScript lastig.
+
+**Screenshot(s):**
+
+### Agenda voor meeting
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/agenda2.png)
+
+
+### Verslag van meeting
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/voortgang1.svg)
 
 
 

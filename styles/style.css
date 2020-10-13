@@ -15,99 +15,7 @@ body {
     line-height: 20px;
 }
 
-img {
-    width: 100%;
-    padding-bottom: 2em;
-}
 
-h3 {
-    font-family: 'Roboto', sans-serif;
-    color: darkgrey;
-    font-size: 28px;
-    padding-top: 5px;
-}
-
-
-header {
-    display: flex;
-    flex-direction: row;
-}
-
-section {
-    position: relative;
-}
-
-main section div {
-    position: absolute;
-    top: 0;
-    left: 1em;
-    right: 1em;
-    bottom: 1em;
-    margin: 0;
-    color: darkgrey;
-
-}
-
-.button {
-    display: block;
-    text-decoration: none;
-    background-color: #FC7170;
-    padding-bottom: 18px;
-    padding-left: 25px;
-    padding-right: 53px;
-    padding-top: 18px;
-    color: white;
-    border-radius: 50px;
-    font-size: 13px;
-    width: 60%;
-    margin: auto;
-    margin-top: 130px;
-    position: relative;
-    min-width: 231px;
-    max-width: 233px;
-    filter: drop-shadow(0 0 0.3rem white)
-}
-
-main h4 {
-    font-size: 14px;
-    margin: 30px 0px 15px;
-}
-
-p {
-    padding-top: 5px;
-
-}
-
-h5 {
-    color: #FC7170;
-}
-
-nav {
-    background-color: white;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: 70vw;
-    z-index: 100;
-    transform: translateY(-100%);
-    color: black;
-
-}
-
-header > button {
-    position: relative;
-    z-index: 200;
-}
-
-header > a {
-    position: relative;
-    z-index: 200;
-}
-
-.active nav {
-    transform: translateY(0);
-}
 
 /*Caroussel*/
 
@@ -185,17 +93,170 @@ header > a {
     }
 }
 
+img {
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: darkgrey;
+    font-size: 28px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    outline: 1px black;
+    justify-content: space-between;
+}
+
+section {
+    position: relative;
+}
+
+main section div {
+    position: absolute;
+    top: 0;
+    left: 1em;
+    right: 1em;
+    bottom: 1em;
+    margin: 0;
+    color: darkgrey;
+
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+    background-color: #FC7170;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    padding-right: 53px;
+    padding-top: 18px;
+    color: white;
+    border-radius: 50px;
+    font-size: 13px;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    min-width: 231px;
+    max-width: 233px;
+    filter: drop-shadow(0 0 0.2rem white);
+}
+
+main h4 {
+    font-size: 14px;
+    margin: 30px 0px 15px;
+}
+
+p {
+    padding-top: 5px;
+
+}
+
+h1 {
+    color: #FC7170;
+    margin-top: 2em;
+}
+
+h2 {
+    color: black;
+    margin-top: 1em;
+}
+
+h5 {
+    color: #FC7170;
+}
+
+nav {
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 8em;
+    width: 100vw;
+    height: 70vw;
+    z-index: 100;
+    transform: translateY(-100%);
+    color: black;
+    right: 1em;
+
+}
+
+#hamburger {
+    background: white;
+    max-width: 5em;
+}
+
+header > button {
+    position: relative;
+    z-index: 200;
+}
+
+header > a {
+    position: relative;
+    z-index: 200;
+}
+
+.active nav {
+    transform: translateY(0);
+    transition: .25s;
+}
+
+.active nav ul {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.active nav ul li {
+    text-decoration: none;
+    padding: 1.5em;
+}
+
 /*Breakpoints*/
 
 /*onderste plaatjes naast elkaar, titel groter, uitgebreid footer*/
-@media all and (min-width: 750px) {
+
+@media all and (min-width: 350px) {
     body {
         background-color: none;
+    }
+
+    .button {
+        margin-top: 110px;
+
+    }
+}
+
+@media all and (min-width: 750px) {
+    
+    .button {
+        margin-top: 130px;
+
     }
 }
 
 /*Onderste plaatjes groter, menu komt uit hamburger in categorieen*/
-@media all and (min-width: 1054px) {}
+@media all and (min-width: 1054px) {
+
+    .body{
+        display: flex;
+        flex-basis:auto;
+        flex-wrap: wrap;
+    }
+    .button {
+        margin-top: 250px;
+
+    }
+}
 
 /*onderste plaatjes groter*/
-@media all and (min-width: 1250px) {}
+@media all and (min-width: 1250px) {
+    .button{
+        margin-top: 400 px;
+    }
+}
