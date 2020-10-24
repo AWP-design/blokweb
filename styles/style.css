@@ -13,9 +13,38 @@ body {
     font-family: 'PT Serif', serif;
     text-align: center;
     line-height: 20px;
+    padding-left: 2em;
+    padding-right: 2em;
+
+
 }
 
+/*Styling about pagina*/
+.about {
+    color: black;
+}
 
+.why {
+    font-size: .8em;
+
+}
+
+.fotoabout {
+    width: 100vw;
+}
+
+.footer {
+    width: 100vw;
+}
+
+footer p {
+    font-size: 0.8em;
+    z-index: 100;
+}
+
+input {
+    border: 1px solid gray;
+}
 
 /*Caroussel*/
 
@@ -155,7 +184,7 @@ main h4 {
 
 p {
     padding-top: 5px;
-
+    text-align: left;
 }
 
 h1 {
@@ -166,6 +195,7 @@ h1 {
 h2 {
     color: black;
     margin-top: 1em;
+    font-size: 1em;
 }
 
 h5 {
@@ -178,7 +208,7 @@ nav {
     left: 0;
     top: 8em;
     width: 100vw;
-    min-height:70vw;
+    min-height: 70vw;
     z-index: 100;
     transform: translateY(-100%);
     color: black;
@@ -213,13 +243,13 @@ header > a {
 }
 
 .active nav ul li {
-    
+
     padding: 1.5em;
 }
 
 .active nav ul li a {
-text-decoration: none;
-text-transform: uppercase;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 /*Breakpoints*/
@@ -238,7 +268,7 @@ text-transform: uppercase;
 }
 
 @media all and (min-width: 750px) {
-    
+
     .button {
         margin-top: 130px;
 
@@ -248,11 +278,12 @@ text-transform: uppercase;
 /*Onderste plaatjes groter, menu komt uit hamburger in categorieen*/
 @media all and (min-width: 1054px) {
 
-    .body{
+    .body {
         display: flex;
-        flex-basis:auto;
+        flex-basis: auto;
         flex-wrap: wrap;
     }
+
     .button {
         margin-top: 250px;
 
@@ -261,7 +292,7 @@ text-transform: uppercase;
 
 /*onderste plaatjes groter*/
 @media all and (min-width: 1250px) {
-    .button{
+    .button {
         margin-top: 400 px;
     }
 }
