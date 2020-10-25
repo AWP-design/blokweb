@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="jouw naam">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Delight Yoga Frontend CMD</title>
+    <title>Delight Yoga Home Frontend CMD</title>
 
     <link href="styles/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
@@ -16,7 +16,6 @@
 
 <body>
 
-    <script src="scripts/script.js"></script>
     <header>
         <a href="index.html">
             <img src="images/logo.png" alt="Delight Yoga logo">
@@ -63,30 +62,30 @@
                 <a class="button" href="index.html">TRY YOGA</a>
             </div>
         </section>
-        <section>
+        <article>
             <h3>Our classes</h3>
             <section class="car-container">
                 <section class="foto fade">
-                    <img src="images/classes1.png" style="width:100%" alt="hatha">
+                    <img src="images/classes1.png" alt="hatha">
                     <div class="car-text">Hatha</div>
                 </section>
                 <section class="foto fade">
-                    <img src="images/classes2.png" style="width:100%" alt="vinyasa">
+                    <img src="images/classes2.png" alt="vinyasa">
                     <div class="car-text">Vinyasa</div>
                 </section>
                 <section class="foto fade">
-                    <img src="images/classes3.png" style="width:100%" alt="ashtanga">
+                    <img src="images/classes3.png" alt="ashtanga">
                     <div class="car-text">Ashtanga</div>
                 </section>
                 <section class="foto fade">
-                    <img src="images/classes4.png" style="width:100%" alt="mindfulness">
+                    <img src="images/classes4.png" alt="mindfulness">
                     <div class="car-text">Mindfulness</div>
                 </section>
 
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+                <button class="next" onclick="plusSlides(1)">&#10095;</button>
             </section>
-        </section>
+        </article>
 
         <section>
             <img src="images/location3.png" alt="our locations">
@@ -117,12 +116,13 @@
     </section>
     <footer>
         <hr>
-        <img src="images/logo.png" alt="logo">
-        <p>
-            You are very welcome at Delight Yoga, located in the centre of Amsterdam and Den Haag. Our authentic yoga classes are taught (in English!) by our enthusiastic international teachers. Our passion for yoga goes further than only the yoga classes. We also put our whole heart into our studios.
-        </p>
-        
-        <img class="footer"src="images/footer.png" alt="footer">
+        <img class="logofoot" src="images/logo.png" alt="logo">
+        <div>
+            <p>
+                You are very welcome at Delight Yoga, located in the centre of Amsterdam and Den Haag. Our authentic yoga classes are taught (in English!) by our enthusiastic international teachers. Our passion for yoga goes further than only the yoga classes. We also put our whole heart into our studios.
+            </p>
+            <img class="footer" src="images/footer.png" alt="footer">
+        </div>
     </footer>
     <script src="scripts/script.js"></script>
 </body>

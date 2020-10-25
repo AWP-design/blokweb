@@ -13,9 +13,21 @@
 
 -dit ging goed & dit was lastig-
 
+Het was lastig om met JavaScript te werken. Ik heb de Inleiding Programmeren niet behaald 
+en daardoor vond ik het moeilijk om dat te begrijpen. Verder vond ik de uitleg stap na stap van alle
+onderdelen duidelijk en overzichtelijk. Alleen als ik dat zelf moest op mijn pagina toepassen, 
+dan was het uitdagend of een keuze te maken. Hoe kan ik iets het best aanpakken? Met flexbox of grid? 
+Het was ook veel bronnen bekijken om een oplossing te vinden. Het is uitindelijk gelukt om JS te gebruiken 
+in hamburger menu en in de caroussel. Alleen weghalen van de JS van html (slideshow) is mij niet gelukt.
+Sam, de studentenasisstent was ook heel behulpzaam.
+
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/final1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/final2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/final3.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/final4.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/final5.png)
 
 
 

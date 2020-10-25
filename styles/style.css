@@ -35,15 +35,33 @@ body {
 
 .footer {
     width: 100vw;
+    padding-bottom: 0;
+}
+
+.logofoot {
+    max-width: 300px;
+    padding-bottom: .7em;
+
+}
+
+footer div {
+    position: relative;
 }
 
 footer p {
+    color: black;
     font-size: 0.8em;
-    z-index: 100;
+    text-align: justify;
 }
 
 input {
     border: 1px solid gray;
+
+}
+
+input:focus {
+    background: LightYellow;
+    color: black;
 }
 
 /*Caroussel*/
@@ -69,7 +87,7 @@ input {
     color: black;
     font-weight: bold;
     font-size: 20px;
-    transition: 0.6s ease;
+    transition: 0.25s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
@@ -83,6 +101,16 @@ input {
     right: 0;
     border-radius: 3px 0 0 3px;
     background: white;
+}
+
+.prev:focus {
+    background: LightYellow;
+    color: black;
+}
+
+.next:focus {
+    background: LightYellow;
+    color: black;
 }
 
 .car-text {
@@ -100,6 +128,7 @@ input {
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
+
 }
 
 @-webkit-keyframes fade {
@@ -175,6 +204,23 @@ main section div {
     min-width: 231px;
     max-width: 233px;
     filter: drop-shadow(0 0 0.2rem white);
+    transition: .25s;
+
+}
+
+.button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.button:active {
+    background-color: ghostwhite;
+    color: crimson;
+}
+
+.button:focus {
+    background: LightYellow;
+    color: black;
 }
 
 main h4 {
@@ -194,7 +240,7 @@ h1 {
 
 h2 {
     color: black;
-    margin-top: 1em;
+    margin-top: .5em;
     font-size: 1em;
 }
 
@@ -216,10 +262,12 @@ nav {
 
 }
 
+
 #hamburger {
     background: white;
     max-width: 5em;
 }
+
 
 header > button {
     position: relative;
@@ -245,11 +293,33 @@ header > a {
 .active nav ul li {
 
     padding: 1.5em;
+
+
 }
 
 .active nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
+    position: relative;
+    transition: .25s;
+
+}
+
+.active nav ul li a:hover {
+    background-color: whitesmoke;
+}
+
+.active nav ul li a:visited {
+    color: DarkSlateBlue;
+}
+
+.active nav ul li a:active {
+    color: crimson;
+}
+
+.active nav ul li a:focus {
+    background: LightYellow;
+    color: black;
 }
 
 /*Breakpoints*/
@@ -257,13 +327,22 @@ header > a {
 /*onderste plaatjes naast elkaar, titel groter, uitgebreid footer*/
 
 @media all and (min-width: 350px) {
-    body {
-        background-color: none;
+
+
+
+
+    .button {
+        margin-top: 40px;
+    }
+}
+
+@media all and (max-width: 482px) {
+    nav {
+        top: 6.2em;
     }
 
     .button {
-        margin-top: 110px;
-
+        margin-top: 60px;
     }
 }
 
@@ -271,6 +350,22 @@ header > a {
 
     .button {
         margin-top: 130px;
+
+    }
+
+    section {
+        position: relative;
+        max-width: 50%;
+        margin: auto;
+    }
+
+    footer p {
+        color: black;
+        font-size: 0.8em;
+        text-align: justify;
+        position: absolute;
+        max-width: 300px;
+        margin-left: 0;
 
     }
 }
@@ -285,14 +380,24 @@ header > a {
     }
 
     .button {
-        margin-top: 250px;
+        margin-top: 200px;
 
     }
+}
+
+footer p {
+    font-size: 1em;
+    max-width: 400px;
 }
 
 /*onderste plaatjes groter*/
 @media all and (min-width: 1250px) {
     .button {
-        margin-top: 400 px;
+        margin-top: 250px;
+    }
+
+    footer p {
+        font-size: 1.5em;
+        max-width: 600px;
     }
 }
